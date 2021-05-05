@@ -1,1 +1,38 @@
+<head>
+<title>CMFdev Text Editor</title>
+<style>
+body {
+background-color: #2B2B2B;
+}
+   	input[type=text], textarea, select {
+            font: 17px Arial;
+            border: 1px solid #000000;
+        }
+.text {
+font-family: Arial; color: #FFFFFF;
+}
+</style>
+</head>
+<html>
+<body>
+<center>
+<img src="https://i.postimg.cc/fT3rVp4f/cmfdevlogowide.png" width="20%">
+<table>
+    <tr>
+        <td colspan="3">
+            <textarea id="inputTextToSave" cols="80" rows="25"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td><div class="text">Filename to Save As:</div></td>
+        <td><input id="inputFileNameToSaveAs"></input></td>
+        <td><button onclick="saveTextAsFile()">Save Text to File</button></td>
+    </tr>
+    <tr>
+</table>
 
+<script src="script.js"></script>
+
+</body>
+</html>
+</center>
